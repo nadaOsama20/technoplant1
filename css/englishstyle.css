@@ -1,0 +1,564 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+@font-face {
+    font-family: opensan-bold;
+    src: url("../fonts/SairaCondensed-Bold.ttf");
+} */
+
+/* 
+@font-face {
+    font-family: opensan;
+    src: url("../fonts/SairaCondensed-Bold.ttf");
+} */
+
+
+@font-face {
+    font-family: monterrst;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+
+body {
+    font-family: monterrst !important;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    /* background: rgb(0, 0, 0); */
+    z-index: 99;
+}
+
+.logo-image {
+    width: 99px;
+    height: 99px;
+    margin-right: 20%;
+}
+
+
+.navbar-nav .designed-nav {
+    padding-left: 2%;
+    font-size: 20px;
+    word-spacing: 2px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
+}
+
+.navbar-nav .designed-nav:hover {
+    color: #77ba4c !important;
+}
+
+.navbar-brand {
+    text-align: start;
+}
+
+.toggler {
+    border: none;
+}
+
+
+.li a {
+    padding-left: 2%;
+}
+
+.li-nav {
+    padding-left: 25px;
+}
+
+.carousel .carousel-item {
+    transition-duration: .5s;
+}
+
+.nav-barcenterized {
+    justify-content: flex-start
+}
+
+img {
+    width: 100%;
+}
+
+div#slider-home .carousel-item::before {
+    background: #0000005c;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#slider-home h3 {
+    text-transform: capitalize;
+    font-size: 50px;
+}
+
+#slider-home p {
+    font-size: 23px;
+}
+
+#slider-home .btn {
+    background: #f82249;
+    color: #fff;
+    padding: 12px 30px !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#slider-home .btn:hover {
+    background: #ffffff;
+    color: #f82249;
+}
+
+/* ! Start Wrapper design  */
+
+#wrapper .section-about {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    /* background-color: #eee; */
+}
+
+#wrapper .section-about .inside-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.carousel-caption p {
+    text-align: center;
+}
+
+#wrapper .section-about .inside-section .content {
+    width: 55%;
+    padding-top: 6%;
+}
+
+/* تعريف الشركة */
+#wrapper .section-about .inside-section .content p {
+    font-size: 25px;
+    word-spacing: 2px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/*  مزيد من المعلومات*/
+#wrapper .section-about .inside-section .content .text-content {
+    font-size: 23px;
+    word-spacing: 2px;
+    color: #7B869E;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#wrapper .section-about .inside-section .content .images-steps {
+    text-align: center;
+}
+
+#wrapper .section-about .inside-section .content .images-steps img {
+    width: 481.25%;
+    /* height: 77px; */
+    margin: 2.5%;
+}
+
+#wrapper .section-about .inside-section .image-section {
+    width: 25%;
+}
+
+/* ! section Worker */
+
+#wrapper .section-worker {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    /* background-color: #eee; */
+}
+
+#wrapper .section-worker .inside-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#wrapper .section-worker .inside-section .content {
+    width: 55%;
+    padding-top: 6%;
+}
+
+/* تعريف الشركة */
+#wrapper .section-worker .inside-section .content p {
+    font-size: 25px;
+    word-spacing: 2px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/*  مزيد من المعلومات*/
+#wrapper .section-worker .inside-section .content .text-content {
+    font-size: 23px;
+    word-spacing: 2px;
+    color: #7B869E;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#wrapper .section-worker .inside-section .content .images-steps {
+    text-align: center;
+}
+
+#wrapper .section-about .inside-section .content .images-steps img {
+    width: 77px;
+    height: 77px;
+    margin: 2.5%;
+}
+
+#wrapper .section-worker .inside-section .image-section {
+    max-width: 555px;
+    height: 370;
+}
+
+
+/* ! divider sction */
+
+#wrapper .divider-section {
+    position: relative;
+}
+
+#wrapper .divider-section .over-lay {
+    width: 100%;
+    height: 404px;
+    background-color: #0000006c;
+    z-index: 1;
+    position: absolute;
+}
+
+#wrapper .divider-section .over-lay p {
+    font-size: 40px;
+    word-spacing: 2px;
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    text-justify: inter-word;
+    padding-top: 15%;
+}
+
+/* ! footer section design */
+.footer-scetion {
+    background-color: #EBEBEB;
+}
+
+.contact-info span,
+a {
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.contact-info span:hover,
+a:hover {
+    color: #707070 !important;
+}
+
+.copyright-text {
+    font-size: 15px;
+}
+
+/* ! Blog page desing */
+.section-header {
+    margin: 15px 0px;
+    word-spacing: 3px;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.section-header .card-footer h6,
+p {
+    word-spacing: 2px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.section-header .row .text-head {
+    color: #000;
+}
+
+.section-header .row h5,
+h6 {
+    color: #000;
+}
+
+
+.section-lastnews {
+    word-spacing: 2px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.section-lastnews .container .contant-news {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0px;
+}
+
+.section-lastnews .container .header-news {}
+
+
+.section-lastnews .container .header-news h4 {
+    color: #000;
+}
+
+.section-lastnews .container .col img {
+    width: 388px;
+    height: 199px;
+    border-radius: 5px;
+    /* 514 */
+}
+
+
+/* ! contact section  */
+
+.contact-section {
+    width: 100%;
+}
+
+.contact-section .contact-row img {
+    width: 100%;
+}
+
+
+/* ! Product Page design */
+
+.nada-des h2 {
+    color: #000;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin: 30px 0 60px;
+}
+
+.nada-des h2::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 4px;
+    border-radius: 1px;
+    background: #7ac400;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+}
+
+.nada-des .carousel {
+    margin: 50px auto;
+    padding: 0 70px;
+}
+
+.nada-des .carousel .item {
+    color: #747d89;
+    min-height: 325px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nada-des .carousel .thumb-wrapper {
+    padding: 25px 15px;
+    background: #fff;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.nada-des .carousel .item .img-box {
+    height: 180px;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.nada-des .carousel .item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.nada-des .carousel .item h4 {
+    font-size: 20px;
+}
+
+.nada-des .carousel .item h4,
+.carousel .item p,
+.carousel .item ul {
+    margin-bottom: 5px;
+}
+
+.nada-des .carousel .thumb-content .btn i {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.nada-des .carousel .item-price {
+    font-size: 13px;
+    padding: 2px 0;
+    text-align: center;
+}
+
+
+.nada-des .arrow-style {
+    height: 44px;
+    width: 40px;
+    background: #7ac400;
+    margin: auto 0;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.nada-des .arrow-style:hover {
+    background: #7ac400;
+    opacity: 1;
+}
+
+.nada-des .carousel-control-prev i,
+.carousel-control-next i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.nada-des .carousel-control-prev i {
+    margin-left: -2px;
+}
+
+.nada-des .carousel-control-next i {
+    margin-right: -4px;
+}
+
+.nada-des .carousel-indicators {
+    bottom: -50px;
+}
+
+.nada-des .carousel-indicators li,
+.carousel-indicators li.active {
+    width: 30px;
+    height: 3px;
+    margin-top: 10px;
+    border: none;
+}
+
+.nada-des .carousel-indicators li {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.nada-des .carousel-indicators li.active {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.nada-des .carousel .wish-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 99;
+    cursor: pointer;
+    font-size: 16px;
+    color: #abb0b8;
+}
+
+.nada-des .carousel .wish-icon .fa-heart {
+    color: #ff6161;
+}
+
+/* ! nav bar design */
+
+.nav-des {
+    /* background-color: #0000007a; */
+    background-color: rgba(0, 0, 0, 0.25);
+    /* opacity: .7; */
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #0000007a;
+    /* opacity: .7; */
+}
+
+.carousel-item .header-images {
+    height: 100vh !important;
+}
